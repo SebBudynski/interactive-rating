@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Orange: hsl(25, 97%, 53%);
+  --White: hsl(0, 0%, 100%);
+  --Light-Grey: hsl(217, 12%, 63%);
+  --Medium-Grey: hsl(216, 12%, 54%);
+  --DarkBlue: hsl(213, 19%, 18%);
+  --Very-Dark-Blue: hsl(216, 12%, 8%);
+
+  --Rate-bckg: hsl(213, 19%, 21%);
+}
+
+body {
+  background-color: var(--Very-Dark-Blue);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Overpass", sans-serif;
+}
+
+.question {
+  max-width: 25rem;
+  background-color: var(--DarkBlue);
+  padding: 2rem;
+  border-radius: 20px;
+  line-height: 1.5rem;
+}
+
+.star {
+  background-color: var(--Rate-bckg);
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: var(--White);
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+p {
+  color: var(--Medium-Grey);
+  font-size: 0.9375rem;
+}
+
+.rate-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+}
+
+.rate {
+  border-radius: 50%;
+  background-color: var(--Rate-bckg);
+  color: var(--Medium-Grey);
+  padding: 1.2rem;
+  border: none;
+  width: 3rem;
+}
+
+.submit {
+  background-color: var(--Orange);
+  color: var(--White);
+  width: 100%;
+  border-radius: 25px;
+  padding: 0.875rem 0;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+  border: none;
+}
+
+.submit:hover {
+  cursor: pointer;
+  background-color: var(--White);
+  color: var(--Orange);
+}
+
+.rate:hover {
+  cursor: pointer;
+  background-color: var(--Orange);
+  color: var(--White);
+}
+
+.clicked {
+  background-color: var(--Light-Grey);
+  color: var(--White);
+}
+
+.hidden {
+  display: none;
+}
+
+.thank-you-container {
+  background-color: var(--DarkBlue);
+  max-width: 25rem;
+  border-radius: 25px;
+  padding: 2rem;
+}
+
+.ilustration {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.choice {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.choice :only-child {
+  background-color: var(--Rate-bckg);
+  color: var(--Orange);
+  padding: 0.5rem;
+  border-radius: 20px;
+  border: none;
+}
+
+.thx {
+  text-align: center;
+}
+
+.comment {
+  padding-bottom: 2rem;
+  text-align: center;
+}
