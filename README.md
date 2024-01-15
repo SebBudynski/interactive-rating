@@ -28,14 +28,14 @@ Users should be able to:
 
 ### Screenshot
 
-[ Screenshot of main panel](./screenshot.png),
-[ Screenshot of thank you panel](./screenshot-thx.png)
+-[ Screenshot of main panel](./screenshot.png),
+-[ Screenshot of thank you panel](./screenshot-thx.png)
 
 
 ### Links
 
-- Solution URL: [](https://github.com/SebBudynski/interactive-rating)
-- Live Site URL:[](https://interactive-rating-sebastian.netlify.app/)
+- Solution URL: [Github repository](https://github.com/SebBudynski/interactive-rating)
+- Live Site URL:[Netlify page](https://interactive-rating-sebastian.netlify.app/)
 
 ## My process
 
