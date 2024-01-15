@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
--[ Screenshot of main panel](./screenshot.png),
--[ Screenshot of thank you panel](./screenshot-thx.png)
+- [ Screenshot of main panel](./screenshot.png),
+- [ Screenshot of thank you panel](./screenshot-thx.png)
 
 
 ### Links
