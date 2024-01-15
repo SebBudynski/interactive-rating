@@ -38,7 +38,7 @@ body {
   border-radius: 50%;
 }
 
-h1, .thank-you h2 {
+h1, h2 {
   font-size: 1.5rem;
   color: var(--White);
   padding-top: 2rem;
@@ -50,7 +50,7 @@ p {
   font-size: 0.9375rem;
 }
 
-.rate-buttons {
+.question ul {
   display: flex;
   justify-content: space-between;
   padding: 1.5rem 0;
@@ -102,22 +102,23 @@ p {
   display: none;
 }
 
-.ilustration {
-  display: flex;
-  justify-content: center;
-  padding-top: 1rem;
+.thank-you img {
+  display: block;
+  margin:auto;
 }
 
-.choice {
+.your-choice {
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
   background-color: var(--Rate-bckg);
   color: var(--Orange);
-  padding: 0.5rem;
+  padding: 0.5rem 0 0.2rem;
   border-radius: 20px;
   border: none;
   gap:.2rem;
+  max-width: 60%;
+  margin: auto;
+  margin-top: 2rem;
 }
 
 .thank-you h2,  .comment {
