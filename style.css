@@ -50,21 +50,22 @@ p {
   font-size: 0.9375rem;
 }
 
-.question ul {
+.all-rates {
   display: flex;
   justify-content: space-between;
   padding: 1.5rem 0;
-  list-style: none;
 }
 
 .rate {
   border-radius: 50%;
   background-color: var(--Rate-bckg);
   color: var(--Medium-Grey);
-  padding: 1.2rem;
   border: none;
-  width: 3rem;
-  height: 3rem;
+  width: 3.3rem;
+  height: 3.3rem;
+  font-weight: 700;
+  font-size: 1rem;
+  padding-top: 0.2rem ;
 }
 
 .submit {
