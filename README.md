@@ -61,7 +61,7 @@ In next projects I want focus on developing my JavaScript skills. Also keep prac
 
 ### Useful resources
 
-- [Example resource 1](https://www.scaler.com/topics/javascript-disable-button/) - I found here how to disable button
+- [scaler.com](https://www.scaler.com/topics/javascript-disable-button/) - I found here how to disable button
 
 ## Author
 
