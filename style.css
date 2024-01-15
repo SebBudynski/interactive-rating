@@ -24,11 +24,11 @@ body {
   font-family: "Overpass", sans-serif;
 }
 
-.question {
+.question, .thank-you {
   max-width: 25rem;
   background-color: var(--DarkBlue);
   padding: 2rem;
-  border-radius: 20px;
+  border-radius: 1.5rem;
   line-height: 1.5rem;
 }
 
@@ -38,7 +38,7 @@ body {
   border-radius: 50%;
 }
 
-h1 {
+h1, .thank-you h2 {
   font-size: 1.5rem;
   color: var(--White);
   padding-top: 2rem;
@@ -54,6 +54,7 @@ p {
   display: flex;
   justify-content: space-between;
   padding: 1.5rem 0;
+  list-style: none;
 }
 
 .rate {
@@ -63,6 +64,7 @@ p {
   padding: 1.2rem;
   border: none;
   width: 3rem;
+  height: 3rem;
 }
 
 .submit {
@@ -76,32 +78,28 @@ p {
   border: none;
 }
 
-.submit:hover {
+.submit:hover, .rate:hover{
   cursor: pointer;
+  transition: 0.4s;
+}
+
+.submit:hover {
   background-color: var(--White);
   color: var(--Orange);
 }
 
 .rate:hover {
-  cursor: pointer;
   background-color: var(--Orange);
   color: var(--White);
 }
 
-.clicked {
+.rate:focus {
   background-color: var(--Light-Grey);
   color: var(--White);
 }
 
 .hidden {
   display: none;
-}
-
-.thank-you-container {
-  background-color: var(--DarkBlue);
-  max-width: 25rem;
-  border-radius: 25px;
-  padding: 2rem;
 }
 
 .ilustration {
@@ -113,22 +111,17 @@ p {
 .choice {
   display: flex;
   justify-content: center;
-  padding-top: 2rem;
-}
-
-.choice :only-child {
+  margin-top: 2rem;
   background-color: var(--Rate-bckg);
   color: var(--Orange);
   padding: 0.5rem;
   border-radius: 20px;
   border: none;
+  gap:.2rem;
 }
 
-.thx {
+.thank-you h2,  .comment {
   text-align: center;
 }
 
-.comment {
-  padding-bottom: 2rem;
-  text-align: center;
-}
+

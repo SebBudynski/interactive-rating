@@ -1,21 +1,19 @@
 "use strict";
 
-const submit = document.querySelector("button.submit");
-const rates = document.getElementsByClassName("rate");
-let i;
-console.log(rates);
+const submit = document.querySelector(".submit");
+const rates = document.querySelectorAll(".rate");
+const rated = document.getElementById("rated")
 
-// rates.addEventListener("click", function()
-// rates.classList.remove("clicked")
-// )
 
-for (i = 0; i < rates.length; i++) {
-    rates[i].addEventListener("click", function () {
-        this.classList.toggle("clicked");
-    });
-}
-
+// switching to thank you panel//
 submit.addEventListener("click", () => {
-  document.querySelector("div.question").classList.toggle("hidden");
-  document.querySelector("div.thank-you-container").classList.toggle("hidden");
+  document.querySelector(".question").classList.toggle("hidden");
+  document.querySelector(".thank-you").classList.toggle("hidden");
 });
+
+//displaing choosen rate in thank-you panel//
+rates.forEach((rate) => {
+  rate.addEventListener("click", () => {
+    rated.innerHTML = rate.innerHTML;
+  })
+})
